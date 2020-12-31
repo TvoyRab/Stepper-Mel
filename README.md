@@ -24,7 +24,8 @@ The programm to stepper motor.
    
   ## Управление ускорением движения мотора
 	void moveAccStep(float dir,int pause,int moveCount);
-      dir-направления движения 
+   ***dir-направления движения***
+   ***
    ***pause-пауза***
    ***
    ***moveCount-шаг***
