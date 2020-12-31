@@ -6,44 +6,55 @@ The programm to stepper motor.
 ***Дата***:31.12.2020
  
 ### Инструкция по применению библиотеки :
-// установка шага
+
+## Установка шага
 void setStep(int stepLength); 
-stepLength-длина шага 
-//   линейное перемещение и управление вращением
+***stepLength-длина шага ***
+## Линейное перемещение и управление вращением
 	void  moveStep(float dir,int pause,int moveCount); 
-   dir-направления движения 
+   ***dir-направления движения 
+   ***
    pause-пауза
-   moveCount-шаг
+   ***
+   moveCount-шаг***
    
    
   ## Управление ускорением движения мотора
 	void moveAccStep(float dir,int pause,int moveCount);
       dir-направления движения 
-   pause-пауза
-   moveCount-шаг
+   ***pause-пауза
+   ***
+   moveCount-шаг***
+   
    
    
   ## Управление углом поворота вала шагового двигателя
 	void  moveAngle(float speed,float angle, bool acc); 
-   speed-скорость 
+   ***speed-скорость 
+   ***
    angle-угол в грудусах
-   acc-ускорение
+   ***
+   acc-ускорение***
    
    ## Управление линейным перемещением в относительной и абсолютной системе координат
 	void  moveVector(float speed,int _length, bool acc); 
-    speed-скорость 
+   ***speed-скорость 
+    ***
     _length-длина перемещения 
-    acc-ускорение
+    ***
+    acc-ускорение***
     
     
    
    ## Установка текущей позиции мотора
 	void  movePosition(float speed,int newPos, bool acc); 
-   speed-скорость 
+   ***speed-скорость 
+   ***
    newPos-указание новой позиции 
-   acc-ускорение
-   // Возвращение домой 
-	  void   moveHome();
+   ***
+   acc-ускорение***
+   ## Возвращение домой 
+	void   moveHome();
    
    
    
