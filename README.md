@@ -12,11 +12,11 @@ void setStep(int stepLength);
 ***stepLength-длина шага ***
 ## Линейное перемещение и управление вращением
 	void  moveStep(float dir,int pause,int moveCount); 
-   ***dir-направления движения 
+   ***dir-направления движения***
    ***
-   pause-пауза
+   ***pause-пауза***
    ***
-   moveCount-шаг***
+   ***moveCount-шаг***
    
    
   ## Управление ускорением движения мотора
