@@ -2,7 +2,9 @@
 The programm to stepper motor.
 ## Данный проект реализован для управления ходом шагового двигателя 
 ***Создатели проекта***: Zabirov Robert and Ismagilov Azamat
+***
 ***Город***: Республика Башкортостан , город Мелеуз
+***
 ***Дата***:31.12.2020
  
 ### Инструкция по применению библиотеки :
@@ -10,7 +12,7 @@ The programm to stepper motor.
 ## Установка шага
 void setStep(int stepLength); 
 ***
-***stepLength-длина шага ***
+***stepLength-длина шага***
 ## Линейное перемещение и управление вращением
 	void  moveStep(float dir,int pause,int moveCount); 
    ***dir-направления движения***
