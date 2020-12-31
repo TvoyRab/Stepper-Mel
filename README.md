@@ -39,9 +39,9 @@ void setStep(int stepLength);
    ## Управление линейным перемещением в относительной и абсолютной системе координат
 	void  moveVector(float speed,int _length, bool acc); 
    ***speed-скорость*** 
-       ***
+   ***
    ***_length-длина перемещения***
-       ***
+   ***
    ***acc-ускорение***
     
     
