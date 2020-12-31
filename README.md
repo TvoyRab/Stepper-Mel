@@ -10,7 +10,7 @@ The programm to stepper motor.
 ### Инструкция по применению библиотеки :
 
 ## Установка шага
-void setStep(int stepLength); 
+        void setStep(int stepLength); 
 ***
 ***stepLength-длина шага***
 ## Линейное перемещение и управление вращением
