@@ -66,7 +66,9 @@ void setStep(int stepLength);
  ***
  #### Контакты для установки микрошага
  int PIN_MS1=4; 
+ ***
  int PIN_MS2=5;
+ ***
  int PIN_MS3=6;
  ***
  ### Начальная позиция
