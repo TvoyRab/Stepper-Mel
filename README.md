@@ -9,6 +9,7 @@ The programm to stepper motor.
 
 ## Установка шага
 void setStep(int stepLength); 
+***
 ***stepLength-длина шага ***
 ## Линейное перемещение и управление вращением
 	void  moveStep(float dir,int pause,int moveCount); 
